@@ -281,8 +281,7 @@ class auto_client_timevar
   }
 
  private:
-  // Private to disallow copies.
-  auto_client_timevar (const auto_client_timevar &);
+  DISABLE_COPY_AND_ASSIGN (auto_client_timevar);
 
   timer *m_timer;
 };
